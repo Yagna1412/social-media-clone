@@ -11,7 +11,7 @@ import postRoutes from './routes/posts.js';
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://chic-capybara-c409b0.netlify.app/"
 }
 
 app.use(bodyParser.json({ limit: '30mb', extended: true }))
