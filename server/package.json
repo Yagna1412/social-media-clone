@@ -5,7 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "nodemon index.js"
+        "start": "node index.js"
     },
     "author": "",
     "license": "ISC",
@@ -13,10 +13,12 @@
         "bcryptjs": "^2.4.3",
         "body-parser": "^1.19.0",
         "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
         "express": "^4.19.2",
         "firebase": "^10.12.2",
         "firebase-admin": "^12.2.0",
         "jsonwebtoken": "^9.0.2",
-        "mongoose": "^5.9.29"
+        "mongoose": "^5.13.22",
+        "vercel": "^34.2.8"
     }
 }
